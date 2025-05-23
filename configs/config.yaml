@@ -1,0 +1,28 @@
+# Configuration of experiment parameters
+---
+params_optimize:
+  SEED: 12
+  NUM_ITERATION: 1000
+  LINE_SEARCH_BOUND: 0.05
+  THRESHOLD: 1.0E-16
+  eigenvalue_search_range: [-1,1]
+  num_initial_eigenvalue_guesses: 50
+
+params_synthetic_data:
+  dynamics: Cubic_Nonlinear_2D_ODE
+  TIME_INTERVAL: 0.1
+  TIME_SPAN: 2
+  NUM_TRAJECTORY: 5
+  SEED: 12
+  randomness: True
+  integrator_keywords:
+    rtol: 1.0E-12
+    method: LSODA
+    atol: 1.0E-12
+
+params_preprocess:
+  polynomial_order: 3
+  number_of_freq: 0
+
+params_viz:
+  num_eigenvalue_grid_points: 400

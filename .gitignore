@@ -1,0 +1,8 @@
+# Python bytecode
+__pycache__/
+
+# Results
+results_high_order/
+results_robustness/
+figure_robustness/
+analytics/*.png
