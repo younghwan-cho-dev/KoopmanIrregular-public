@@ -6,3 +6,4 @@ results_high_order/
 results_robustness/
 figure_robustness/
 analytics/*.png
+.DS_Store
