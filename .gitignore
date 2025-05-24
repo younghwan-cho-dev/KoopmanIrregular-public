@@ -2,8 +2,7 @@
 __pycache__/
 
 # Results
-results_high_order/
-results_robustness/
-figure_robustness/
-analytics/*.png
+2025-05-10/
+
+# Misc
 .DS_Store
